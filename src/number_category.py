@@ -22,4 +22,11 @@ def categorize_number(number):
         categorize_number(0) -> "Nulla"
     """
     # TODO: Írd meg az implementációt!
+    if number > 0:
+        return "Positive"
+    elif number == 0:
+        return "Zero"
+    else:
+        return "Negative"
     pass
+            
