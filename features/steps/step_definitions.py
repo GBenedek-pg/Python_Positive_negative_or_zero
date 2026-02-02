@@ -8,7 +8,7 @@ from src.number_category import categorize_number
 
 
 # TODO: Írd meg a step definition-öket a feature fájlban lévő scenáriók alapján
-@given('the number is {number}')
+@given('the number is "{number}"')
 def step_given_number(context, number):
     context.number = float(number)
 
